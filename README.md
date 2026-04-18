@@ -61,6 +61,9 @@ pytest tests/test_login_demo.py::TestLoginDemo::test_successful_login
 Generate an HTML report:
 pytest --html=report.html
 
+example:
+pytest -vv -rA tests/test_login_demo.py
+
 Auto-Healing
 The SmartElementFinder automatically attempts to heal broken locators using GenAI. Healing logs are printed during test execution.
 
