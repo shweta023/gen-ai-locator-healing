@@ -1,0 +1,47 @@
+{
+  "login_username": {
+    "name": "login_username",
+    "by": "ID",
+    "value": "username",
+    "description": "Username input field on login page",
+    "page": "go",
+    "last_updated": "2025-10-29T09:59:46.954654",
+    "failure_count": 0
+  },
+  "login_password": {
+    "name": "login_password",
+    "by": "ID",
+    "value": "password",
+    "description": "Password input field on login page",
+    "page": "login",
+    "last_updated": "2025-12-03T15:19:17.023188",
+    "failure_count": 0
+  },
+  "login_submit": {
+    "name": "login_submit",
+    "by": "CSS_SELECTOR",
+    "value": "button[type='submit']",
+    "description": "Submit button on login page",
+    "page": "login",
+    "last_updated": "2025-01-15T10:00:00",
+    "failure_count": 0
+  },
+  "login_flash_message": {
+    "name": "login_flash_message",
+    "by": "ID",
+    "value": "flash",
+    "description": "Flash message after login attempt",
+    "page": "login",
+    "last_updated": "2025-01-15T10:00:00",
+    "failure_count": 0
+  },
+  "logout_button": {
+    "name": "logout_button",
+    "by": "CSS_SELECTOR",
+    "value": "a.button.secondary",
+    "description": "Logout button on secure page",
+    "page": "secure",
+    "last_updated": "2025-01-15T10:00:00",
+    "failure_count": 0
+  }
+}
