@@ -1,0 +1,33 @@
+# Core Testing Framework
+selenium==4.15.2
+pytest==7.4.3
+pytest-html==4.1.1
+pytest-xdist==3.5.0
+
+# GenAI Integration
+anthropic==0.40.0
+
+# Web Driver Management
+webdriver-manager==3.8.6
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Data Handling
+dataclasses-json==0.6.3
+
+# Logging and Reporting
+colorama==0.4.6
+tabulate==0.9.0
+
+# Optional: For enhanced functionality
+Pillow==10.1.0  # For screenshot handling
+beautifulsoup4==4.12.2  # For HTML parsing
+lxml==4.9.3  # For faster XML/HTML processing
+
+# Development Dependencies (optional)
+black==23.12.1  # Code formatting
+flake8==7.0.0  # Linting
+mypy==1.8.0  # Type checking
+pytest-cov==4.1.0  # Code coverage
